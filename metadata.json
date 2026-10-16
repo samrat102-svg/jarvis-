@@ -1,0 +1,6 @@
+{
+  "name": "J.A.R.V.I.S.",
+  "description": "Iron Man J.A.R.V.I.S. AI Call and Message Assistant with voice command recognition, smart replies, live screening, and calendar/contacts integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

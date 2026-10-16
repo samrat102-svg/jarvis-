@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Arc Ring -->
+    <path
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="3.2"
+        android:fillColor="#00000000"
+        android:pathData="M54,54 m-28,0 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0" />
+
+    <!-- Gold Segment Accents around Arc Reactor -->
+    <path
+        android:strokeColor="#FFFFD700"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,23 L54,29 M54,79 L54,85 M23,54 L29,54 M79,54 L85,54 M32,32 L36,36 M76,76 L72,72 M76,32 L72,36 M32,76 L36,72" />
+
+    <!-- Inner Glowing Ring -->
+    <path
+        android:strokeColor="#8000B0FF"
+        android:strokeWidth="1.8"
+        android:fillColor="#1A00E5FF"
+        android:pathData="M54,54 m-18,0 a18,18 0 1,0 36,0 a18,18 0 1,0 -36,0" />
+
+    <!-- Center Arc Core Triangle / Emblem -->
+    <path
+        android:fillColor="#FF00E5FF"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineJoin="round"
+        android:pathData="M54,39 L67,61 L41,61 Z" />
+
+    <!-- Center Core Energy Dot -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,54 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0" />
+
+</vector>
